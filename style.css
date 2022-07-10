@@ -98,11 +98,13 @@ button:hover {
 @media screen and (max-width:375px) {
     .three-column-card-container {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .three-column-card {
         align-self: center;
-        width: 95%;
-        height: 90%;
+        width: 60%;
+        height: 90vh;
         background-color: aliceblue;
         display: flex;
         flex-direction: column;
